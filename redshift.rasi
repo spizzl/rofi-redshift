@@ -51,7 +51,8 @@ inputbar {
     padding:                     80px 60px;
     background-color:            transparent;
     text-color:                  @foreground;
-    orientation:                 horizontal;
+    background-image:			 url("~/.config/i3/redshift/background2.jpeg", width);
+	orientation:                 horizontal;
     children:                    [ "textbox-prompt-colon",  "dummy", "mode-switcher" ];
 }
 textbox-prompt-colon {	
@@ -70,7 +71,6 @@ dummy {
     border-radius: 8px;
 }
 
-/*****----- Mode Switcher -----*****/
 mode-switcher{
     enabled:                     true;
     spacing:                     10px;
