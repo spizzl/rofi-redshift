@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chosen=$(printf "Enable Redshift\nDisable Redshift\nTemp 4500K\nTemp 5000K\nTemp 5500K\nTemp 6000K\nReset" | rofi -dmenu -p "Redshift" -theme redshift.rasi)
+chosen=$(printf "Enable Redshift\nDisable Redshift\nTemp 4500K\nTemp 5000K\nTemp 5500K\nTemp 6000K\nReset" | rofi -dmenu -p "Redshift" -theme ~/.config/i3/redshift/redshift.rasi)
 
 case "$chosen" in
   "Enable Redshift") redshift -x && redshift -O 5000 ;;

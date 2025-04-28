@@ -45,6 +45,7 @@ listbox {
     children:                    [ "message", "listview" ];
 }
 
+
 inputbar {
     enabled:                     true;
     spacing:                     10px;
